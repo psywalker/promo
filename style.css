@@ -1,0 +1,556 @@
+@font-face {
+    font-family: 'lora';
+    src: url('Fonts/LoraRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    max-width: 1920px;
+    min-width: 1200px;
+    margin: 0 auto;
+    background: #000;
+}
+.clearfix {
+
+}
+    .clearfix::after,
+    .clearfix::before {
+        display: table;
+        clear: both;
+        content: '';
+    }
+.page__section {
+    overflow: hidden;
+    position: relative;
+}
+.page__inner{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.page__section_one {
+    height: 966px;
+    background: url('img/1_HEADER/1_HEADER_bg.jpg') center top no-repeat;
+}
+.page__section_three {
+
+}
+.page__section_four {
+    height: 993px;
+    background: url('img/4_MOUNT/4_MOUNT_bg.jpg') center top no-repeat;
+}
+.page__section_five {
+    height: 900px;
+    background: url('img/5_FOOTER/5_FOOTER_BG.jpg') center top no-repeat;
+}
+
+.head {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.desc {
+
+}
+    .desc__text {
+        font-size: 24px;
+        font-family: "Lora";
+        color: rgb(249, 244, 233);
+        line-height: 1.5;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .desc__link {
+        display: block;
+        margin: 0 auto;
+        width: 102px;
+        height: 66px;
+        background: url('img/BTN_scroll_normal.png') left top no-repeat;
+        cursor: pointer;
+    }
+        .desc__link:hover:active {
+            background: url('img/BTN_scroll_active.png') left top no-repeat;
+        }
+        .desc__link:hover {
+            background: url('img/BTN_scroll_hover.png') left top no-repeat;
+        }
+
+
+.slider-hiro {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+    .slider-hiro__inner {
+        display: flex;
+        width: 300%;
+        transition: all .3s;
+        transform: translateX(0);
+    }
+
+    .slider-hiro__section {
+        width: 100%;
+        padding-top: 50px;
+        height: 900px;
+        box-sizing: border-box;
+
+
+    }
+    .slider-hiro__section_bg_isolda {
+        background: url('img/2_CHARS/2_CHARS_bg_Isolda.jpg') center top no-repeat;
+
+    }
+    .slider-hiro__section_bg_pamela {
+        background: url('img/2_CHARS/2_CHARS_bg_Pamela.jpg') center top no-repeat;
+    }
+    .slider-hiro__section_bg_lleyn {
+        background: url('img/2_CHARS/2_CHARS_bg_Lleyn.jpg') center top no-repeat;
+    }
+
+    .hiro__footer {
+        clear: both;
+        padding-top: 50px;
+    }
+.slider__button {
+    position: absolute;
+    width: 66px;
+    height: 102px;
+    border: none;
+    cursor: pointer;
+    text-indent: -9999px;
+
+}
+    .slider__button_type_left {
+        left: 20px;
+        top: calc(50% - 102px);
+        background: url('img/BTN_scroll_normal-left.png') left top no-repeat;
+    }
+    .slider__button_type_right{
+        right: 20px;
+        top: calc(50% - 102px);
+
+        background: url('img/BTN_scroll_normal-right.png') left top no-repeat;
+    }
+        .slider__button_type_left:hover {
+            background: url('img/BTN_scroll_hover-left.png') left top no-repeat;
+        }
+        .slider__button_type_left:hover:active {
+            background: url('img/BTN_scroll_active-left.png') left top no-repeat;
+        }
+        .slider__button_type_right:hover {
+            background: url('img/BTN_scroll_hover-right.png') left top no-repeat;
+        }
+        .slider__button_type_right:hover:active {
+            background: url('img/BTN_scroll_active-right.png') left top no-repeat;
+        }
+.head__title,
+.section__title{
+    text-indent: -99999px;
+    margin: 0;
+    padding: 0;
+}
+.section__title_two {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 410px);
+    z-index: 1;
+
+    width: 819px;
+    height: 148px;
+    background: url('img/2_CHARS/2_CHARS_head.png') left top no-repeat;
+}
+.logo {
+    width: 625px;
+    height: 290px;
+    margin: 0 auto;
+    background: url('img/1_HEADER/1_HEADER_logo.png') left top no-repeat;
+}
+.section__title_one {
+    width: 829px;
+    height: 230px;
+    margin: 0 auto;
+    background: url('img/1_HEADER/1_HEADER_head.png') left top no-repeat;
+}
+.play {
+
+}
+    .play__link {
+        display: block;
+        text-indent: -99999px;
+
+        width: 565px;
+        height: 234px;
+        margin: 0 auto;
+        background: url('img/BTN_play_normal.png') left top no-repeat;
+        cursor: pointer;
+    }
+        .play__link:hover:active {
+            background: url('img/BTN_play_active.png') left top no-repeat;
+
+        }
+        .play__link:hover {
+            background: url('img/BTN_play_hover.png') left top no-repeat;
+        }
+.hiro__inner {
+
+}
+    .hiro__column_left {
+        float: left;
+        width: 430px;
+    }
+    .hiro__column_right{
+        float: right;
+        width: 150px;
+        margin-top: 100px;
+    }
+    . {
+        clear: both;
+    }
+
+    .hiro__name {
+        text-indent: -99999px;
+
+    }
+
+        .hiro__name_type_isolda {
+            width: 466px;
+            height: 130px;
+            background: url('img/2_CHARS/2_CHARS_name_Isolda.png') -48px top no-repeat;
+        }
+        .hiro__name_type_pamela {
+            width: 466px;
+            height: 130px;
+            background: url('img/2_CHARS/2_CHARS_name_Pamela.png') -48px top no-repeat;
+        }
+        .hiro__name_type_lleyn {
+            width: 466px;
+            height: 140px;
+            background: url('img/2_CHARS/2_CHARS_name_Lleyn.png') -45px top no-repeat;
+        }
+
+     .hiro__subtitle {
+        padding: 5px 0;
+        margin: 0;
+        font-size: 21px;
+        font-family: "Lora";
+        color: rgb(255, 50, 58);
+        line-height: 1.333;
+        text-shadow: 0px 5px 30px rgba(35, 27, 32, 0.004);
+        padding-left: 40px
+     }
+         .hiro__subtitle_type_isolda {
+
+             background: url('img/2_CHARS/2_CHARS_fraction_Isolda.png') left top no-repeat;
+         }
+         .hiro__subtitle_type_pamela {
+             color: rgb(202, 134, 255);
+             background: url('img/2_CHARS/2_CHARS_fraction_Pamela.png') left 3px no-repeat;
+         }
+         .hiro__subtitle_type_lleyn {
+             color: rgb(255, 196, 25);
+             background: url('img/2_CHARS/2_CHARS_fraction_Lleyn.png') left 7px no-repeat;
+         }
+    .hiro__text {
+        font-size: 24px;
+        font-family: "Lora";
+        color: rgb(249, 244, 233);
+        line-height: 1.5;
+
+    }
+    .hiro-attribute {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .hiro-attribute__item {
+            margin-bottom: 20px;
+
+        }
+            .hiro-attribute__link {
+                display: block;
+                text-decoration: none;
+            }
+                .hiro-attribute__link:active,
+                .hiro-attribute__link:hover {
+                    text-decoration: none;
+                }
+                .hiro-attribute__img {
+                    float: left;
+                    margin-right: 10px;
+                }
+                .hiro-attribute__main {
+                    overflow: hidden;
+                    margin-top: -5px;
+                }
+                .hiro-attribute__title {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 24px;
+                    font-family: "Lora";
+                    color: rgb(249, 244, 233);
+                    line-height: 1.5;
+                }
+                .hiro-attribute__text {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 16px;
+                    font-family: "Lora";
+                    color: rgb(188, 190, 193);
+                    line-height: 1.25;
+                }
+        .hiro-photo {
+
+
+    }
+        .hiro-photo__item {
+            width: 140px;
+            height: 140px;
+            margin-bottom: 20px;
+
+        }
+        .hiro-photo__link {
+            display: block;
+        }
+            .hiro-photo__link {
+                display: block;
+                width: 140px;
+                height: 140px;
+                cursor: pointer;
+            }
+            .hiro-photo__link.hiro-photo__isolda {
+                background: url('img/2_CHARS/2_CHARS_icon_Isolda_inactive.png') left top no-repeat;
+            }
+            .hiro-photo__link.hiro-photo__isolda:hover {
+                background: url('img/2_CHARS/2_CHARS_icon_Isolda_hover.png') left top no-repeat;
+            }
+            .hiro-photo__link.hiro-photo__isolda:hover:active {
+                background: url('img/2_CHARS/2_CHARS_icon_Isolda_active.png') left top no-repeat;
+            }
+
+            .hiro-photo__link.hiro-photo__pamela{
+                background: url('img/2_CHARS/2_CHARS_icon_Pamela_inactive.png') left top no-repeat;
+            }
+            .hiro-photo__link.hiro-photo__pamela:hover {
+                background: url('img/2_CHARS/2_CHARS_icon_Pamela_hover.png') left top no-repeat;
+            }
+            .hiro-photo__link.hiro-photo__pamela:hover:active {
+                background: url('img/2_CHARS/2_CHARS_icon_Pamela_active.png') left top no-repeat;
+            }
+
+            .hiro-photo__link.hiro-photo__lleyn {
+                background: url('img/2_CHARS/2_CHARS_icon_Lleyn_inactive.png') left top no-repeat;
+            }
+            .hiro-photo__link.hiro-photo__lleyn:hover {
+                background: url('img/2_CHARS/2_CHARS_icon_Lleyn_hover.png') left top no-repeat;
+            }
+            .hiro-photo__link.hiro-photo__lleyn:hover:active {
+                background: url('img/2_CHARS/2_CHARS_icon_Lleyn_active.png') left top no-repeat;
+            }
+
+.section__title_three {
+    position: absolute;
+    z-index: 1;
+    width: 625px;
+    height: 148px;
+    top: 0;
+    left: calc(50% - 362px);
+    z-index: 1;
+    background: url('img/3_VIDEO/3_VIDEO_head.png') left top no-repeat;
+}
+.video__box {
+    height: 1080px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+    .video__button{
+        position: absolute;
+        top: calc(50% - 122px);
+        left: calc(50% - 123px);
+        width: 236px;
+        height: 234px;
+        background: url('img/3_VIDEO/3_VIDEO_icon_play.png') left top no-repeat;
+        border: none;
+        cursor: pointer;
+        z-index: 1;
+
+    }`
+    .video::after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        content: "";
+        background: url('img/3_VIDEO/3_VIDEO_shadow_top.png') left top no-repeat;
+        background-size: 100% 100%;
+    }
+    .video__game {
+        height: 1080px;
+        position: absolute;
+        left: calc(50% - 960px);
+        top: 0;
+    }
+.video__footer {
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+    width: 100%;
+}
+    .video__footer .desc {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+.section__title_four {
+    position: absolute;
+    z-index: 1;
+    width: 863px;
+    height: 92px;
+    top: 30px;
+    left: calc(50% - 481px);
+    z-index: 1;
+    background: url('img/4_MOUNT/4_MOUNT_head.png') left top no-repeat;
+
+}
+.hiro-level__main {
+    position: absolute;
+    top: 540px;
+    width: 1250px;
+    left: calc(50% - 600px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+
+}
+    .hiro-level__left {
+        width: 520px;
+        margin-left: -80px;
+    }
+    .hiro-level__right{
+        width: 520px;
+        margin-right: 50px;
+    }
+        .hiro-level__title {
+            padding-top: 88px;
+            font-size: 24px;
+            font-family: "Lora";
+            color: rgb(255, 196, 25);
+            line-height: 1.167;
+            height: 35px;
+            text-align: center;
+        }
+        .hiro-level__title_type_left {
+            width: 520px;
+
+            background: url('img/4_MOUNT/4_MOUNT_rating_30000.png') left top no-repeat;
+        }
+        .hiro-level__title_type_right {
+            width: 532px;
+            background: url('img/4_MOUNT/4_MOUNT_rating_150000.png') left top no-repeat;
+        }
+        .hiro-level__footer{
+            position: absolute;
+            bottom: 20px;
+            z-index: 1;
+            width: 100%;
+        }
+            .hiro-level__footer .desc {
+                max-width: 1300px;
+                margin: 0 auto;
+            }
+.section__title_five {
+    background: url('img/5_FOOTER/5_FOOTER_head.png') left top no-repeat;
+    width: 948px;
+    height: 149px;
+    margin: 30px auto 0;
+}
+.social__text {
+    font-size: 24px;
+    font-family: "Lora";
+    color: rgb(249, 244, 233);
+    line-height: 1.125;
+    text-align: center;
+}
+.social__list {
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+    .social__item {
+        width: 83px;
+        height: 91px;
+        margin-right: 15px;
+    }
+        .social__link {
+            display: block;
+            width: 83px;
+            height: 91px;
+            text-indent: -99999px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+            .social__link:hover,
+            .social__link:hover:active {
+                text-decoration: none;
+            }
+            .social__link_type_fb {
+                background: url('img/5_FOOTER/5_FOOTER_btn_fb_normal.png') left top no-repeat;
+            }
+            .social__link_type_fb:hover {
+                background: url('img/5_FOOTER/5_FOOTER_btn_fb_hover.png') left top no-repeat;
+            }
+            .social__link_type_fb:hover:active {
+                background: url('img/5_FOOTER/5_FOOTER_btn_fb_active.png') left top no-repeat;
+            }
+
+            .social__link_type_vk {
+                background: url('img/5_FOOTER/5_FOOTER_btn_vk_normal.png') left top no-repeat;
+            }
+            .social__link_type_vk:hover {
+                background: url('img/5_FOOTER/5_FOOTER_btn_vk_hover.png') left top no-repeat;
+            }
+            .social__link_type_vk:hover:active {
+                background: url('img/5_FOOTER/5_FOOTER_btn_vk_active.png') left top no-repeat;
+            }
+
+            .social__link_type_ok {
+                background: url('img/5_FOOTER/5_FOOTER_btn_ok_normal.png') left top no-repeat;
+            }
+            .social__link_type_ok:hover {
+                background: url('img/5_FOOTER/5_FOOTER_btn_ok_hover.png') left top no-repeat;
+            }
+            .social__link_type_ok:hover:active {
+                background: url('img/5_FOOTER/5_FOOTER_btn_ok_active.png') left top no-repeat;
+            }
+
+            .social__link_type_mail {
+                background: url('img/5_FOOTER/5_FOOTER_btn_mail_normal.png') left top no-repeat;
+            }
+            .social__link_type_mail:hover {
+                background: url('img/5_FOOTER/5_FOOTER_btn_mail_hover.png') left top no-repeat;
+            }
+            .social__link_type_mail:hover:active {
+                background: url('img/5_FOOTER/5_FOOTER_btn_mail_active.png') left top no-repeat;
+            }
+
+    .footer__desc {
+        font-size: 14px;
+        font-family: "Lora";
+        color: rgba(181, 181, 181, 0.502);
+        line-height: 1.489;
+        text-align: center;
+        max-width: 500px;
+        margin: 50px auto 0;
+    }
+    .footer__logo {
+        display: block;
+        width: 149px;
+        height: 59px;
+        margin: 20px auto 0;
+        background: url('img/5_FOOTER/5_FOOTER_logo_101xp.png') left top no-repeat;
+        text-indent: -99999px;
+        cursor: pointer;
+        text-decoration: none;
+    }
